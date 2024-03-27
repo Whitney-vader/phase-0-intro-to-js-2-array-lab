@@ -3,10 +3,13 @@ const cats = ['Milo', 'Otis', 'Garfield'];
 
 const destructivelyAppendCat = (name) => {
   cats.push("name");
+  return cats;
 };
 
 const destructivelyPrependCat = (name) => {
-  cats.push("name");
+  cats.unshift("name");
+  return cats;
+
 };
 
 const destructivelyRemoveLastCat = () => {
