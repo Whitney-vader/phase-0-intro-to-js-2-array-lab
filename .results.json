@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 2,
-    "start": "2024-03-27T09:45:45.285Z",
-    "end": "2024-03-27T09:45:46.096Z",
-    "duration": 811
+    "start": "2024-03-27T10:16:41.211Z",
+    "end": "2024-03-27T10:16:42.061Z",
+    "duration": 850
   },
   "tests": [
     {
@@ -36,7 +36,7 @@
     {
       "title": "\"before each\" hook for \"appends a cat to the end of the cats array\"",
       "fullTitle": "index.js Array functions \"before each\" hook for \"appends a cat to the end of the cats array\"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:12:7)\n    at process.processImmediate (node:internal/timers:471:21)",
